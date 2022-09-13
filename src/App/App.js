@@ -21,7 +21,7 @@ import ContactUs from '../Pages/ContactUs/ContactUs.js';
 const App = () => {
 	return (
 		<Routes>
-			<Route path='/' element={<Home />} />
+			<Route path='' element={<Home />} />
 			<Route path='about_us' element={<AboutUsPage />} />
 			<Route path='our_team' element={<OurTeamsPage />} />
 			<Route path='faq' element={<FqaPage />} />
