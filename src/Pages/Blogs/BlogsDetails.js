@@ -48,7 +48,7 @@ const BlogsDetails = () => {
 								</div>
 								<div class='blog-meta mb-20'>
 									<div className='row align-items-center '>
-										<div className='col-2 align-items-center'>
+										<div className='col-lg-2  align-items-center'>
 											<div class='blog-details'>
 												<img class='avatar  rounded-circle  me-1' src={blog_avatar_1} alt='avatar one' width='30px' />
 												<a href='/#'>
@@ -57,7 +57,7 @@ const BlogsDetails = () => {
 											</div>
 										</div>
 
-										<div className='col-2'>
+										<div className='col-lg-2 '>
 											<div class='calender'>
 												<span className='me-1'>
 													<FaRegCalendarAlt />

@@ -229,14 +229,14 @@
 	.testimonial-wrapper {
 		position: relative;
 		background-color: var(--orang-color);
-		padding: 70px 10px 30px 30px;
-		margin: 70px 0;
+		padding: 70px 20px 30px 20px;
+		margin: 70px 10px 70px 10px;
 		border-radius: 30px;
 		-webkit-border-radius: 30px;
 		-moz-border-radius: 30px;
 		-ms-border-radius: 30px;
 		-o-border-radius: 30px;
-}
+	}
 	.testimonial-section .swiper-button-prev,
 	.testimonial-section .swiper-button-next {
 		top: -20px;

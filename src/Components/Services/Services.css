@@ -5,7 +5,7 @@
 }
 .services-section .swiper-button-next,
 .services-section .swiper-button-prev {
-	display: none ;
+	display: none;
 }
 .feature-wrapper {
 	background-image: url(../../assets/services/slide-bg.png);
@@ -127,6 +127,7 @@
 		padding-top: 50px;
 		padding-bottom: 50px;
 	}
+	
 	.service-wrapper .heading {
 		font-size: 32px;
 		font-weight: 600;
@@ -145,6 +146,7 @@
 		z-index: 0;
 		margin: 0 -13px;
 	}
+
 	.myServicesSwiper .swiper-slide {
 		width: 100% !important;
 	}

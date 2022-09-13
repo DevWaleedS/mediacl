@@ -3,7 +3,7 @@ import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
 // import required modules
-import { Navigation, Pagination, Mousewheel, Keyboard } from 'swiper';
+import { Navigation, Pagination, Mousewheel, Keyboard, Autoplay } from 'swiper';
 // Import Swiper styles
 import 'swiper/css';
 import { FaQuoteLeft, FaQuoteRight } from 'react-icons/fa';
@@ -52,7 +52,20 @@ const Testimonial = () => {
 						</div>
 					</div>
 					<div className='col-lg-6 '>
-						<Swiper className='myTestimonialSwiper' loop={true} navigation={true} pagination={false} mousewheel={true} keyboard={true} modules={[Navigation, Pagination, Mousewheel, Keyboard]}>
+						<Swiper
+							className='myTestimonialSwiper'
+							loop={true}
+							autoplay={{
+								delay: 3500,
+								disableOnInteraction: false,
+							}}
+							EffectFade={true}
+							navigation={true}
+							pagination={false}
+							mousewheel={true}
+							keyboard={true}
+							modules={[Navigation, Pagination, Mousewheel, Keyboard, Autoplay]}
+						>
 							<SwiperSlide>
 								<div className='testimonial-wrapper'>
 									<div className='testimonial-content'>

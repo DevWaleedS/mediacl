@@ -36,7 +36,7 @@ const Navbar = () => {
 		<Fragment>
 			<nav className={navbar ? 'navbar navbar-expand-lg pt-3 pb-3 fixed-top' : 'navbar navbar-expand-lg pt-3 pb-3'}>
 				<div className='container-fluid'>
-					<NavLink className='navbar-brand' to='/'>
+					<NavLink className='navbar-brand' to='/mediacl/'>
 						<img src={logo} alt='logo' />
 					</NavLink>
 
@@ -50,13 +50,13 @@ const Navbar = () => {
 
 					<div ref={navRef} className='navbar-collapse justify-content-between' id='navbarSupportedContent'>
 						<div className='inner-logo'>
-							<NavLink className='navbar-brand ' to='/'>
+							<NavLink className='navbar-brand ' to='/mediacl/'>
 								<img src={mobile_logo} alt='logo' />
 							</NavLink>
 						</div>
 						<ul className='navbar-nav '>
 							<li className='nav-item'>
-								<NavLink className='nav-link ' aria-current='page' to='/'>
+								<NavLink className='nav-link ' aria-current='page' to='/mediacl/'>
 									Home
 								</NavLink>
 							</li>
@@ -67,32 +67,32 @@ const Navbar = () => {
 								</NavLink>
 								<ul className='dropdown-menu'>
 									<li>
-										<NavLink className='dropdown-item' to='/about_us'>
+										<NavLink className='dropdown-item' to='/mediacl/about_us'>
 											About us
 										</NavLink>
 									</li>
 									<li>
-										<NavLink className='dropdown-item' to='/our_team'>
+										<NavLink className='dropdown-item' to='/mediacl/our_team'>
 											Our team
 										</NavLink>
 									</li>
 									<li>
-										<NavLink className='dropdown-item' to='/faq'>
+										<NavLink className='dropdown-item' to='/mediacl/faq'>
 											FAQ's
 										</NavLink>
 									</li>
 									<li>
-										<NavLink className='dropdown-item' to='/booking'>
+										<NavLink className='dropdown-item' to='/mediacl/booking'>
 											Booking
 										</NavLink>
 									</li>
 									<li>
-										<NavLink className='dropdown-item' to='/error'>
+										<NavLink className='dropdown-item' to='/mediacl/error'>
 											Error 404
 										</NavLink>
 									</li>
 									<li>
-										<NavLink className='dropdown-item' to='/login'>
+										<NavLink className='dropdown-item' to='/mediacl/login'>
 											Login / Register
 										</NavLink>
 									</li>
@@ -105,12 +105,12 @@ const Navbar = () => {
 								</NavLink>
 								<ul className='dropdown-menu'>
 									<li>
-										<NavLink className='dropdown-item' to='/service'>
+										<NavLink className='dropdown-item' to='/mediacl/service'>
 											Service
 										</NavLink>
 									</li>
 									<li>
-										<NavLink className='dropdown-item' to='/service_detail'>
+										<NavLink className='dropdown-item' to='/mediacl/service_detail'>
 											Service Detail
 										</NavLink>
 									</li>
@@ -123,19 +123,19 @@ const Navbar = () => {
 								</NavLink>
 								<ul className='dropdown-menu'>
 									<li>
-										<NavLink className='dropdown-item' to='/blogs'>
+										<NavLink className='dropdown-item' to='/mediacl/blogs'>
 											Blogs
 										</NavLink>
 									</li>
 									<li>
-										<NavLink className='dropdown-item' to='/blogs_details'>
+										<NavLink className='dropdown-item' to='/mediacl/blogs_details'>
 											Blogs Details
 										</NavLink>
 									</li>
 								</ul>
 							</li>
 							<li className='nav-item'>
-								<NavLink className='nav-link ' to='/contact_us'>
+								<NavLink className='nav-link ' to='/mediacl/contact_us'>
 									Contact us
 								</NavLink>
 							</li>

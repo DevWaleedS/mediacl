@@ -17,7 +17,7 @@ const Banner = ({ bannerTitle }) => {
 					<nav aria-label='breadcrumb' className='breadcrumb-row'>
 						<ul className='breadcrumb'>
 							<li className='breadcrumb-item'>
-								<Link to='/'>
+								<Link to='/mediacl/'>
 									<HiOutlineHome />
 									Home
 								</Link>

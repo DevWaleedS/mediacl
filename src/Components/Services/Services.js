@@ -2,7 +2,7 @@ import React from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 // import Swiper core and required modules
-import { Keyboard } from 'swiper';
+import { Autoplay, Keyboard } from 'swiper';
 
 // Import Swiper styles
 import 'swiper/css';
@@ -37,13 +37,23 @@ const Services = () => {
 					<div className='col-xl-8 mb-15'>
 						<Swiper
 							slidesPerView={3}
+							breakpoints={{
+								768: {
+									slidesPerView: 1,
+								},
+							}}
 							spaceBetween={30}
 							loop={true}
+							autoplay={{
+								delay: 3500,
+								disableOnInteraction: false,
+							}}
+							EffectFade={true}
 							loopFillGroupWithBlank={true}
 							keyboard={{
 								enabled: true,
 							}}
-							modules={[Keyboard]}
+							modules={[Keyboard, Autoplay]}
 							className='myServicesSwiper'
 						>
 							<SwiperSlide>

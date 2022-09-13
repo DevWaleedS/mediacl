@@ -21,20 +21,20 @@ import ContactUs from '../Pages/ContactUs/ContactUs.js';
 const App = () => {
 	return (
 		<Routes>
-			<Route path='' element={<Home />} />
-			<Route path='about_us' element={<AboutUsPage />} />
-			<Route path='our_team' element={<OurTeamsPage />} />
-			<Route path='faq' element={<FqaPage />} />
-			<Route path='booking' element={<Booking />} />
+			<Route path='/mediacl/' element={<Home />} />
+			<Route path='/mediacl/about_us' element={<AboutUsPage />} />
+			<Route path='/mediacl/our_team' element={<OurTeamsPage />} />
+			<Route path='/mediacl/faq' element={<FqaPage />} />
+			<Route path='/mediacl/booking' element={<Booking />} />
 			<Route path='*' element={<Error404 />} />
-			<Route path='login' element={<Login />} />
-			<Route path='/register' element={<Register />} />
-			<Route path='/form-forget-password' element={<ForgetPassword />} />
-			<Route path='service' element={<ServicesPage />} />
-			<Route path='service_detail' element={<ServicesDetails />} />
-			<Route path='blogs' element={<Blogs />} />
-			<Route path='blogs_details' element={<BlogsDetails />} />
-			<Route path='contact_us' element={<ContactUs />} />
+			<Route path='/mediacl/login' element={<Login />} />
+			<Route path='/mediacl/register' element={<Register />} />
+			<Route path='/mediacl/form-forget-password' element={<ForgetPassword />} />
+			<Route path='/mediacl/service' element={<ServicesPage />} />
+			<Route path='/mediacl/service_detail' element={<ServicesDetails />} />
+			<Route path='/mediacl/blogs' element={<Blogs />} />
+			<Route path='/mediacl/blogs_details' element={<BlogsDetails />} />
+			<Route path='/mediacl/contact_us' element={<ContactUs />} />
 		</Routes>
 	);
 };

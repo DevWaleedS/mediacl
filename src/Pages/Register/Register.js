@@ -17,13 +17,13 @@ const Register = () => {
 							user_name_input={<input type='text' className='form-control' placeholder='User Name' name='user name' />}
 							passWord_input={<input type='password' className='form-control' placeholder='PassWord' name='password' />}
 							submit_btn={
-								<Link data-toggle='tab' to='/login' type='submit' className=' btn-lg submit-btn w-100' >
+								<Link data-toggle='tab' to='/mediacl/login' type='submit' className=' btn-lg submit-btn w-100'>
 									login
 								</Link>
 							}
 							do_you_have_any_account='Already have an account?'
 							login_btn={
-								<Link type='button' class=' mb-30 btn-lg login_btn w-100 mb-0' to='/login'>
+								<Link type='button' class=' mb-30 btn-lg login_btn w-100 mb-0' to='/mediacl/login'>
 									Register Now
 								</Link>
 							}

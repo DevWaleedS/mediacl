@@ -15,13 +15,13 @@ const ForgetPassword = () => {
 							passWord_input={<input type='password' className='form-control' placeholder='PassWord' name='password' />}
 							new_passWord_input={<input type='password' className='form-control' placeholder='New PassWord' name='password' />}
 							submit_btn={
-								<Link data-toggle='tab' to='/register' type='submit' className=' btn-lg submit-btn w-100'>
+								<Link data-toggle='tab' to='/mediacl/register' type='submit' className=' btn-lg submit-btn w-100'>
 									Register Now
 								</Link>
 							}
 							do_you_have_any_account='Already have an account?'
 							login_btn={
-								<Link type='button' class=' mb-30 btn-lg login_btn w-100 mb-0' to='/'>
+								<Link type='button' class=' mb-30 btn-lg login_btn w-100 mb-0' to='/mediacl/'>
 									Submit
 								</Link>
 							}
