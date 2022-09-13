@@ -1,0 +1,23 @@
+.login-page {
+	height: 100vh;
+	display: flex;
+	background-color: #f5f5fc;
+	align-items: center;
+	justify-content: center;
+}
+.login_btn {
+	background: var(--main-color);
+	color: #fff;
+	padding: 16px;
+	border-radius: var(--border-radius-md);
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.forget-password {
+	color: var(--main-color);
+	font-size: 17px;
+}
+.forget-password:hover {
+	color: var(--main-color) !important;
+}

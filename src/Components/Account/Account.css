@@ -1,0 +1,137 @@
+.section-wrapper {
+	position: relative;
+	background-image: url(../../assets/create-account/bg.png);
+	background-repeat: no-repeat;
+	background-position: 50px 140px;
+	background-color: #f5f5fc;
+	border-radius: 40px;
+	padding: 100px;
+	margin: 0 20px;
+	z-index: 0;
+}
+.account-section .images-box {
+	position: relative;
+	width: 730px;
+	margin-left: 70px;
+}
+
+.message-animation,
+.women-animation,
+.setting-animation,
+.mark-animation,
+.location-animation {
+	position: absolute;
+}
+.message-animation {
+	bottom: 570px;
+	left: 570px;
+	animation: up-down 2.4s infinite alternate;
+	-webkit-animation: up-down 2.4s infinite alternate;
+}
+
+.women-animation {
+	bottom: 50px;
+	left: 395px;
+	animation: right-to-left 3s infinite alternate;
+	-webkit-animation: right-to-left 3s infinite alternate;
+}
+.setting-animation {
+	bottom: 100px;
+	left: 371px;
+	animation: up-down 2.7s infinite alternate;
+	-webkit-animation: up-down 2.7s infinite alternate;
+}
+.mark-animation {
+	bottom: 450px;
+	left: 10px;
+	animation: up-down 2.9s infinite alternate;
+	-webkit-animation: up-down 2.9s infinite alternate;
+}
+.location-animation {
+	bottom: 280px;
+	left: 76px;
+	animation: up-down 3s infinite alternate;
+	-webkit-animation: up-down 3s infinite alternate;
+}
+
+.account-animation-1,
+.account-animation-2,
+.account-animation-3,
+.account-animation-4 {
+	position: absolute;
+}
+.account-animation-1 {
+	top: 212px;
+	left: 117px;
+	animation: up-down 2.5s infinite alternate;
+	-webkit-animation: up-down 2.5s infinite alternate;
+}
+.account-animation-2 {
+	bottom: 30px;
+	right: 50px;
+	animation: up-down 2.5s infinite alternate;
+	-webkit-animation: up-down 2.5s infinite alternate;
+}
+
+.account-animation-3 {
+	top: 65px;
+	right: 25px;
+	animation: right-to-left 3s infinite alternate;
+	-webkit-animation: right-to-left 3s infinite alternate;
+}
+.account-animation-4 {
+	bottom: 235px;
+	left: -60px;
+	animation: right-to-left 3s infinite alternate;
+	-webkit-animation: right-to-left 3s infinite alternate;
+}
+
+@media (max-width: 768px) {
+	.section-wrapper {
+		background-position: center center;
+		border-radius: var(--border-radius-md);
+		padding: 50px 10px;
+		margin: 0;
+		z-index: 0;
+	}
+	.form-wrapper {
+		margin-left: 10px;
+		padding: 20px;
+		border-radius: 20px;
+		-webkit-border-radius: 20px;
+		-moz-border-radius: 20px;
+		-ms-border-radius: 20px;
+		-o-border-radius: 20px;
+	}
+	.form-wrapper:after {
+		border-radius: 20px;
+		-webkit-border-radius: 20px;
+		-moz-border-radius: 20px;
+		-ms-border-radius: 20px;
+		-o-border-radius: 20px;
+	}
+	.account-section .images-box {
+		width: 350px;
+		margin: 30px auto 0;
+	}
+	.location-animation {
+		width: 60px;
+		bottom: 140px;
+		left: 40px;
+	}
+	.women-animation {
+		width: 125px;
+		bottom: 50px;
+		left: 180px;
+	}
+	.mark-animation {
+		width: 40px;
+		bottom: 250px;
+		left: 0px;
+	}
+	.setting-animation {
+		width: 50px;
+		bottom: 100px;
+		left: 187px;
+	}
+}

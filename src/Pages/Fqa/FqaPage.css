@@ -1,0 +1,56 @@
+.accordion-item {
+	margin-bottom: 15px !important;
+	border: none !important;
+	background-color: rgba(86, 90, 207, 0.1) !important;
+}
+
+.accordion-button,
+.accordion-header {
+	color: #fff !important;
+	background-color: var(--orang-color) !important;
+	border-radius: var(--border-radius-md) !important;
+	-webkit-border-radius: var(--border-radius-md) !important;
+	-moz-border-radius: var(--border-radius-md) !important;
+	-ms-border-radius: var(--border-radius-md) !important;
+	-o-border-radius: var(--border-radius-md) !important;
+	font-size: 16px;
+	font-weight: 600;
+}
+ .accordion-button.collapsed{
+	background-color: var(--main-color) !important;
+
+
+}
+
+
+.accordion-body {
+	font-size: 16px;
+	padding: 25px;
+	line-height: 1.6;
+	background-color: rgba(86, 90, 207, 0.1);
+	border: none !important;
+	border-radius: 0 0 8px 8px;
+	-webkit-border-radius: 0 0 8px 8px;
+	-moz-border-radius: 0 0 8px 8px;
+	-ms-border-radius: 0 0 8px 8px;
+	-o-border-radius: 0 0 8px 8px;
+}
+button:hover,
+button:focus {
+	transform: scale(1) !important;
+	-webkit-transform: scale(1) !important;
+	-moz-transform: scale(1) !important;
+	-ms-transform: scale(1) !important;
+	-o-transform: scale(1) !important;
+  border: none !important ;
+  box-shadow: none !important ;
+	outline: none !important;
+
+}
+
+.accordion-button::after {
+	content: '' !important;
+	font-family: 'Font Awesome 5 Free';
+	font-weight: 900;
+	background-image: none !important;
+}

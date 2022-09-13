@@ -1,0 +1,25 @@
+header {
+	position: relative;
+	background-image: url(../../assets/header/bg.jpg);
+	background-repeat: no-repeat;
+	background-position: 50%;
+	background-size: cover;
+	overflow: hidden;
+	z-index: 1;
+	height: 800px;
+}
+header:after {
+	content: "";
+    height: 100%;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+		background-image: url(../../assets/header/shape.png);
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+    background-size: 100%;
+    z-index: -1;
+
+}
+

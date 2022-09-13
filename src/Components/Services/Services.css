@@ -1,0 +1,151 @@
+.myServicesSwiper {
+	padding: 20px;
+	z-index: 0;
+	margin-right: -100px;
+}
+.services-section .swiper-button-next,
+.services-section .swiper-button-prev {
+	display: none ;
+}
+.feature-wrapper {
+	background-image: url(../../assets/services/slide-bg.png);
+	border-radius: 20px;
+	background-color: #fff;
+	z-index: 0;
+	overflow: hidden;
+	padding: 40px;
+	box-shadow: 1px 1px 50px rgb(0 0 0 / 8%);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.feature-wrapper:hover .icon-box svg {
+	-webkit-animation: wobble-hor-bottom 0.8s both;
+	animation: wobble-hor-bottom 0.8s both;
+}
+.feature-wrapper .icon-box {
+	background: #fff;
+	border: 2px solid rgba(86, 90, 207, 0.1);
+	border-radius: 13px;
+	width: 130px;
+	height: 130px;
+	line-height: 130px;
+	text-align: center;
+	margin-bottom: 20px;
+	-webkit-border-radius: 13px;
+	-moz-border-radius: 13px;
+	-ms-border-radius: 13px;
+	-o-border-radius: 13px;
+}
+.feature-wrapper .content-box .icon-title {
+	color: var(--heading-color);
+	margin-bottom: 20px;
+	font-weight: 700;
+}
+.feature-wrapper .content-box p {
+	line-height: 1.6;
+	margin-bottom: 30px;
+}
+.feature-wrapper .view-more-btn {
+	transition: var(--transition);
+	-webkit-transition: var(--transition);
+	-moz-transition: var(--transition);
+	-ms-transition: var(--transition);
+	-o-transition: var(--transition);
+}
+.feature-wrapper .view-more-btn:hover {
+	background-color: var(--main-color);
+	color: #fff !important;
+}
+.service-wrapper {
+	position: relative;
+	overflow: hidden;
+	padding-top: 100px;
+	padding-bottom: 70px;
+	padding-left: calc(50% - 600px);
+}
+.service-wrapper:after {
+	content: '';
+	background-color: #565acf;
+	height: 100%;
+	width: 45%;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: -1;
+	border-radius: 40px 0 0 40px;
+}
+.service-wrapper .heading-row {
+	margin-bottom: 20px;
+}
+
+.service-wrapper .content p {
+	line-height: 1.8;
+	margin-bottom: 45px;
+}
+.service-wrapper .content a {
+	padding: 18px 45px;
+	font-size: 17px;
+}
+.service-animation-1,
+.service-animation-2,
+.service-animation-3,
+.service-animation-4 {
+	position: absolute;
+}
+.service-animation-1 {
+	top: 150px;
+	left: 60px;
+	opacity: 0.2;
+	-webkit-animation: rotation 20s linear infinite;
+	animation: rotation 20s linear infinite;
+}
+.service-animation-2 {
+	top: 95px;
+	left: 606px;
+	animation: up-down 3s infinite alternate;
+	-webkit-animation: up-down 3s infinite alternate;
+}
+.service-animation-3 {
+	bottom: 120px;
+	left: 770px;
+	z-index: -1;
+	animation: right-to-left 3s infinite alternate;
+	-webkit-animation: right-to-left 3s infinite alternate;
+}
+.service-animation-4 {
+	bottom: 200px;
+	left: 130px;
+	z-index: -1;
+	animation: up-down 2.2s infinite alternate;
+	-webkit-animation: up-down 2.2s infinite alternate;
+}
+
+@media (max-width: 768px) {
+	.service-wrapper {
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	.service-wrapper .heading {
+		font-size: 32px;
+		font-weight: 600;
+		line-height: 1.3;
+		color: #fff;
+	}
+	.service-wrapper .content P {
+		color: #fff;
+	}
+	.service-wrapper:after {
+		width: 100%;
+		border-radius: 0;
+	}
+	.myServicesSwiper {
+		padding: 10px;
+		z-index: 0;
+		margin: 0 -13px;
+	}
+	.myServicesSwiper .swiper-slide {
+		width: 100% !important;
+	}
+}

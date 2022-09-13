@@ -1,0 +1,32 @@
+.social-wrapper {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}
+.social-wrapper svg {
+    background-color: var(--main-color);
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    line-height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    border-radius: var(--border-radius-md);
+    -webkit-border-radius: var(--border-radius-md);
+    -moz-border-radius: var(--border-radius-md);
+    -ms-border-radius: var(--border-radius-md);
+    -o-border-radius: var(--border-radius-md);
+}
+.social-wrapper svg:hover {
+	background-color: var(--orang-color);
+}
+.social-wrapper svg {
+	color: #fff;
+}
