@@ -37,11 +37,6 @@ const Services = () => {
 					<div className='col-xl-8 mb-15'>
 						<Swiper
 							slidesPerView={3}
-							breakpoints={{
-								768: {
-									slidesPerView: 1,
-								},
-							}}
 							spaceBetween={30}
 							loop={true}
 							autoplay={{
